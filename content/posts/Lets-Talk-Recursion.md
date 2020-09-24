@@ -74,7 +74,7 @@ let's rewrite the factorial function in Tail Recursion:
 
 (define (fact x) (fact-tail x 1))
 ```
-what we did in that snippet above is pretty simple, we just split the work across two functions, the first function `(fact-tail x accum)` will iterate and the second function `(fact x)` will call the first function and returns the value of each iteration so we basically have no extra operations going on, *in fact calling `(fact 0)` is now the same as calling `(fact 10000)` in terms of memory size.*
+what we did in that snippet above is pretty simple, we just split the work across two functions, the first function `(fact-tail x accum)` will iterate and the second function `(fact x)` will call the first function and returns the value of each iteration (we have also moved the multiplication operation to it's own variable) so we basically have no extra operations going on, *in fact calling `(fact 0)` is now the same as calling `(fact 10000)` in terms of memory size.*
 
 let's step through each iteration and see for ourselves how great is Tail Recursion:
 ```Scheme

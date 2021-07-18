@@ -8,6 +8,9 @@ tags:
   - Computability
   - Mathematical Logic
 ---
+
+{{< image src="/img/diophantus/header.jpg" height="200" alt="Diophantus's Arithmetica" position="center" style="border-radius: 8px;"  >}}
+
 ## Introduction
 In this series of blog posts, I will be discussing some of my favorite topics in math, It mostly falls under the domains of mathematical logic and computability theory.
 
@@ -47,8 +50,8 @@ $(y - 7)(y - 3) = 0$\
 
 I didn't want to bother with a detailed explanation of the steps above (I hope all of those who are reading this know some basic algebra), here is how Diophantus solved such problems.
 ### Diophantus's Approach
-He would first express the two variables $x$ and $y$ as two relations in terms of one variable so his $x$ will be $(x+5)$ and his $y$ will be $(x-5)$.\
-$(x + 5) + (x - 5) = 10$
+He would first express the two variables $x$ and $y$ as two relations in terms of one variable so his $x$ will be $(5+x)$ and his $y$ will be $(5-x)$.\
+$(5 + x) + (5 - x) = 10$
 
 These indeed satisfy the first equation and will yield 10 upon adding them together, and for the second equation, he describes it as follows:\
 $(5 + x)^3 + (5 - x)^3 = 370$
@@ -67,7 +70,7 @@ $(x - 5) = {\bf 3}$
 his problems may seem plain and simple at the first glance but they sometimes become very tough and hard to attack, a famous quote by the German mathematician Hermann Hankel regarding the diophantine problems, "Every question requires a quite special method, which often will not serve even for the most closely allied problems. It is on that account difficult for a modern mathematician even after studying 100 Diophantine solutions to solve the 101st problem"
 
 ## Fermat's Last Theorem
-Pierre de Fermat was a famous 16th-century French mathematician, he had a copy of Diophantus's Arithmetica and had filled its margins extensively with notes.\
+Pierre de Fermat was a famous 17th-century French mathematician, he had a copy of Diophantus's Arithmetica and had filled its margins extensively with notes.\
 At one of the problems that involved a solution in the form of $x^2\ +\ b^2\ =\ c^2$, Fermat wrote:
 > "On the contrary, it is impossible to separate a cube into two cubes, a fourth power into two fourth powers, or generally any power above the second into two powers of the same degree. I have discovered a truly marvelous demonstration which this margin is too narrow to contain.”
 
